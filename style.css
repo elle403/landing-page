@@ -1,0 +1,61 @@
+  @font-face {
+    font-family: unscii-8;
+    src: url(./resources/unscii-8.woff);
+  }
+  @font-face {
+    font-family: unscii-8-tall;
+    src: url(./resources/unscii-8-tall.otf);
+  }
+        body{
+          font-family: unscii-8-tall;
+          margin: 0;
+          display: flex;
+          flex: 1;
+        }
+        .container{
+          display: flex;
+          flex-direction: column;
+        }
+         .logo{
+            font-size: 24px;
+            font-family: unscii-8;
+         }
+
+       .navbar{
+        background-color: #1A0703;
+        color: #E5BD8C;    
+        padding: 16px;
+        font-size: 18px;
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+       }
+
+       .nav a{
+        text-decoration: none;
+       }
+       .nav a, .txt{
+        color: #9b8468;
+       }
+
+     .list1{
+        display: flex;
+        flex: 1;
+        gap: 16px;
+        list-style: none;
+        flex-wrap: wrap;
+     }
+     .coffee1{
+      max-width: 550px;
+      height: auto;
+     }
+     .header{
+      background-color: #1A0703;
+      color: #E5BD8C;
+      display: flex;
+      flex: 1;
+     }
+     h1{
+      font-size: 48px;
+      font-weight: bolder;
+     }
