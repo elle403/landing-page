@@ -10,12 +10,14 @@
           font-family: unscii-8-tall;
           margin: 0;
           display: flex;
-          flex: 1;
+          flex: 1;   
         }
+
         .container{
           display: flex;
-          flex-direction: column;
+          flex-direction: column; 
         }
+
          .logo{
             font-size: 24px;
             font-family: unscii-8;
@@ -24,16 +26,20 @@
        .navbar{
         background-color: #1A0703;
         color: #E5BD8C;    
-        padding: 16px;
         font-size: 18px;
         display: flex;
         flex: 1;
         justify-content: space-between;
+       align-items: center;
+       padding: 30px;
+       
        }
 
        .nav a{
         text-decoration: none;
+       
        }
+
        .nav a, .txt{
         color: #9b8468;
        }
@@ -41,21 +47,78 @@
      .list1{
         display: flex;
         flex: 1;
-        gap: 16px;
-        list-style: none;
-        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;    
      }
+
      .coffee1{
       max-width: 550px;
-      height: auto;
+      height: auto;   
+      border-radius: 20px;
      }
+
      .header{
       background-color: #1A0703;
       color: #E5BD8C;
       display: flex;
       flex: 1;
+      padding: 30px;
+      gap: 100px;
      }
+
      h1{
       font-size: 48px;
       font-weight: bolder;
+     }
+    
+    .one{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: 1;
+      gap: 15px;
+    }
+
+    .butt{
+      display: flex;
+      flex: 0 1 auto;
+      max-width: max-content;
+      height: auto;
+      padding: 9px;
+      justify-content: center;
+      align-items: center;
+      background-color: #663524;
+      border: none;
+      text-decoration: none;
+      color: #E5BD8C;
+      border-radius: 20px;
+     font-family: unscii-8-tall;
+     font-size: medium;
+     transition-duration: 0.4s;
+    }
+    .butt:hover {
+      background-color: #CA8249; /* Green */
+      color: white;
+     }
+     h2{
+      font-size: 36px;
+      font-weight: bolder;
+      color: #1A0703;
+     }
+     .txt2{
+      font-size: 18px;
+      color: #663524;
+     }
+     
+     .info img{
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+     }
+     .info{
+      display: flex;
+      background-color: #E5BD8C;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
      }
