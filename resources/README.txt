@@ -14,6 +14,9 @@ Kevin Menajang https://www.pexels.com/@kevinmenajang/
 
 Royston D souza https://www.pexels.com/@rsquare/
 
+favicon:
+https://icons8.com/icon/0izr0GtTAjkA/cafe 
+
 ...
 
 quotes are from Umineko: when they cry and hamlet
