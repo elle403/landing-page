@@ -115,7 +115,7 @@
   h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1A0703;
+    color: #4E1A0A;
     
   }
 
@@ -136,7 +136,8 @@
 
   .info {
     display: flex;
-    background: linear-gradient(#663524,#E5BD8C);
+    background: linear-gradient(#CA8249, #E5BD8C, #CA8249);
+    /*background-color:#E5BD8C;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -174,7 +175,7 @@ transition: 1s ease;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 50vh;
   color: #f8e9d7;
   justify-content: center;
   align-items: center;
@@ -184,11 +185,67 @@ transition: 1s ease;
   margin-top: 20px;
  font-size: 35px;
  width: 80%;
-
 }
+
 .quote p{
   display: flex;
   font-size: 18px;
    margin-left: auto;
    margin-right: 90px;
+}
+.call{
+  background-color: #f8e9d7;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.contain2{
+  padding: 40px;
+  margin: 40px;
+  background-color: #1A0703;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  color: #E5BD8C;
+  border-radius: 10px;
+  justify-content: center;
+  border: solid #663524 4px;
+  align-items: center;
+  flex: 1;
+  align-items: flex-end;
+}
+.contain2 p{
+  font-size: 20px;
+  color: #9b8468;
+  margin-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain2 b{
+  font-size: 25px;
+}
+
+.butt2{
+  padding: 9px;
+  background-color: #1A0703;
+  border: solid  #E5BD8C 2px;
+  text-decoration: none;
+  color: #E5BD8C;
+  border-radius: 20px;
+  font-family: unscii-8-tall;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  transition-duration: 0.5s;
+}
+
+.butt2:hover{
+ background-color: #CA8249;
+ color: #f8e9d7;
+ border: #f8e9d7;
 }
