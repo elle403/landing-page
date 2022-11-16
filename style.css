@@ -78,6 +78,7 @@
   h1 {
     font-size: 48px;
     font-weight: bolder;
+    font-family: unscii-8;
   }
 
   .one {
@@ -114,7 +115,8 @@
   h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #4E1A0A;
+    color: #1A0703;
+    
   }
 
   .txt2 {
@@ -134,7 +136,7 @@
 
   .info {
     display: flex;
-    background-color: #E5BD8C;
+    background: linear-gradient(#663524,#E5BD8C);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -163,4 +165,30 @@
 -ms-transform: scale(0.8);
 transform: scale(0.8);
 transition: 1s ease;
+}
+
+.quote{
+  display: flex;
+  flex-flow: column wrap;
+  background-image: url(./resources/pics/pexels-ylanite-koppens-796609.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  color: #f8e9d7;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote em{
+  margin-top: 20px;
+ font-size: 35px;
+ width: 80%;
+
+}
+.quote p{
+  display: flex;
+  font-size: 18px;
+   margin-left: auto;
+   margin-right: 90px;
 }
