@@ -194,7 +194,7 @@ transition: 1s ease;
    margin-right: 90px;
 }
 .call{
-  background-color: #f8e9d7;
+  background-color: #E5BD8C;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -203,7 +203,7 @@ transition: 1s ease;
 }
 .contain2{
   padding: 40px;
-  margin: 40px;
+  margin: 50px;
   background-color: #1A0703;
   width: 600px;
   height: 100px;
@@ -248,4 +248,11 @@ transition: 1s ease;
  background-color: #CA8249;
  color: #f8e9d7;
  border: #f8e9d7;
+}
+
+.foot{
+  background-color: #120304;
+  color: #CA8249;
+  padding: 30px;
+  text-align: center;
 }
